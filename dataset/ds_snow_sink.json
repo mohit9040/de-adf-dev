@@ -1,0 +1,35 @@
+{
+	"name": "ds_snow_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_snow_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "YEAR_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "MONTH_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "TOTAL_SALES",
+				"type": "NUMBER",
+				"precision": 18,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "PUBLIC",
+			"table": "SALESAGG"
+		}
+	}
+}
