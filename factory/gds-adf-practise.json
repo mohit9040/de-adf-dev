@@ -1,0 +1,15 @@
+{
+	"name": "gds-adf-practise",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0a106207-c474-4c7d-b22c-93491facd27d",
+		"tenantId": "1290dbba-49ad-4959-85c6-e9c534fec7d0"
+	}
+}
